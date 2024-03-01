@@ -32,12 +32,12 @@ public:
     explicit Dog(const string &name) : name(name) {}
 
     void bark(){
-        cout<<"BARK!\n";
+        cout<<"Bark!\n";
         energy--;
     }
 
     void run(){
-        cout<<"RUN!\n";
+        cout<<"Run!\n";
         energy-=3;
     }
 };
