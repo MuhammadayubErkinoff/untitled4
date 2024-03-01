@@ -1,7 +1,5 @@
 #include <iostream>
-#include <utility>
-#include <cmath>
-#include <map>
+#include <vector>
 using namespace std;
 
 
