@@ -13,12 +13,12 @@ public:
     }
 
     void sleep(){
-        cout<<"I'm sleeping";
+        cout<<"I'm sleeping\n";
         energy++;
     }
 
     void eat(){
-        cout<<"I'm eating";
+        cout<<"I'm eating\n";
         energy++;
     }
 
@@ -32,12 +32,12 @@ public:
     explicit Dog(const string &name) : name(name) {}
 
     void bark(){
-        cout<<"Bark!";
+        cout<<"Bark!\n";
         energy--;
     }
 
     void run(){
-        cout<<"Running!";
+        cout<<"Running!\n";
         energy-=3;
     }
 };
