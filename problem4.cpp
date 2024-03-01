@@ -13,12 +13,12 @@ public:
     }
 
     void sleep(){
-        cout<<"I am sleeping\n";
+        cout<<"I'm sleeping\n";
         energy++;
     }
 
     void eat(){
-        cout<<"I am eating\n";
+        cout<<"I'm eating\n";
         energy++;
     }
 
