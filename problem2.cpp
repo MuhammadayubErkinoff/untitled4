@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 class Timer{
     int hours,minutes, seconds;
 public:
@@ -16,7 +14,7 @@ public:
 
 public:
     void print(){
-        cout<<hours<<":"<<minutes<<":"<<seconds<<"\n";
+        cout<<hours<<":"<<minutes<<":"<<seconds;
     }
 };
 

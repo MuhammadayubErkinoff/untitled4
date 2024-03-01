@@ -37,7 +37,7 @@ public:
     }
 
     void run(){
-        cout<<"Run!\n";
+        cout<<"Running!\n";
         energy-=3;
     }
 };
