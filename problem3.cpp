@@ -1,7 +1,6 @@
 #include <iostream>
 #include <map>
 #include <vector>
-
 using namespace std;
 
 class Student{
@@ -25,10 +24,13 @@ public:
 };
 
 
-void pr3(){
+
+
+
+int main() {
     int n;
     cin>>n;
-    vector<Student>vec(n);
+    vector<Student> vec(n);
     for(int i=0;i<n;i++){
         string a,c;
         long long b;
@@ -41,11 +43,6 @@ void pr3(){
     }
 
     for(auto u:mp){
-        cout<<u.first<<" "<<u.second<<"\n";
+        cout<<u.first<<":"<<u.second<<"\n";
     }
-}
-
-
-int main() {
-    pr3();
 }
